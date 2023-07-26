@@ -1,0 +1,3 @@
+ion-item.search-result-item:hover {
+  color: var(--ion-color-success);
+}

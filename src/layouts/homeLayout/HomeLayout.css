@@ -1,0 +1,7 @@
+.home-layout-content-padding {
+  height: 30px;
+}
+
+ion-tab-button {
+  --color-selected:var(--ion-color-success);
+}

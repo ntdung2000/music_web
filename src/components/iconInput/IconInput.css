@@ -1,0 +1,12 @@
+ion-row.input-container {
+  width: 100%;
+}
+
+ion-row.input-container ion-col{
+  margin: auto;
+}
+
+ion-row.input-container ion-icon.input-icon{
+  width: 40px;
+  margin: auto;
+}

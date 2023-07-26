@@ -1,0 +1,63 @@
+ion-col.play-music-tab {
+  position: fixed;
+  bottom: 50px;
+  border: 2px solid #8dfdb9;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+
+ion-col.play-music-tab ion-fab-button.toogle-zoom-tab {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+ion-col.play-music-tab ion-img.song-tab-image {
+  position: relative;
+  width: 70%;
+  margin: 20px auto 5px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+ion-col.play-music-tab ion-img.song-tab-image::after {
+  content: "";
+  position: absolute;
+  background-color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 20px #000 solid;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+ion-col.play-music-tab ion-img.song-tab-image.rotating {
+  animation: rotate-circle 8s linear infinite;
+}
+
+ion-col.play-music-tab ion-row {
+  margin: 0 10px;
+}
+
+
+ion-range.audio-process {
+  --bar-background: #8dfdb9;
+  --bar-height: 4px;
+  --bar-border-radius: 4px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+@keyframes rotate-circle {
+  to {
+    transform: rotate(360deg);
+  }
+}

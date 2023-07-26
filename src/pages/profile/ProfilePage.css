@@ -1,0 +1,30 @@
+ion-content.profile-content ion-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 0;
+}
+
+ion-content.profile-content .profile-avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+ion-content.profile-content .profile-avatar ion-icon {
+  width: 80px;
+  height: 80px;
+}
+
+ion-content.profile-content ion-col h1 {
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+ion-content.profile-content .profile-option-button {
+  width: 100%;
+}

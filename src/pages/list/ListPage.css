@@ -1,0 +1,11 @@
+.song-list .song-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 5px;
+}
+
+.song-list .song-item .song-image {
+  width: 80%;
+  height: 80%;
+}

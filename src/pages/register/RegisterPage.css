@@ -1,0 +1,9 @@
+.logo-app {
+  margin: 60px auto 40px;
+  width: 100px;
+  height: 100px;
+}
+
+ion-button.submit-button {
+  --border-radius: 30px
+}
